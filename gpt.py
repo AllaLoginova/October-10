@@ -37,8 +37,8 @@ class YandexGPT:
         return text
 
 
-token = 'AQVN02DysF8im3YO2KQT4qrbr4IRwaoCVVgAYwqe'
-catalog = 'b1gtphdg2vndncqf33o7'
+token = ''
+catalog = ''
 
 bot = YandexGPT(token, catalog)
 res = bot.send_request("Что такое любовь?")
